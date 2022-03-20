@@ -5,40 +5,34 @@
 
 |  配置   | 型号  |
 |  ----  | ----  |
-| CPU  | I5-10500 |
+| CPU  | I5-10700 |
 | 主板  | B460M 迫击炮 |
-| 内存  | 威刚2666 8G*2 |
-| 显卡  | I5-10500 核显 UHD630  |
+| 内存  | 光威 3000 8G*2 |
+| 显卡  | I5-10700 核显 UHD630 |
 
 ### CPU支持
 - [x] 支持所有10代核显为UHD630的CPU
-- [x] 无核显带F的10代CPU，有以下免驱独显也可以（但无法使用核显加速）
 
 ### 显卡支持
 - [x] 支持仅有CPU核显的UHD630显卡
-- [x] 支持AMD独显 RX 470/480/570/570X/580/580X/590 系列显卡
-- [x] 支持AMD独显 RX 5500/5600/5700 系列显卡(需使用专用config.plist)
-> PS: 使用独显的需在BIOS里强制打开CPU核显（高级 -> 内建显示配置 -> 集成显卡多显示器(IGD Multi-monitor) -> 允许），否则核显硬件解码失效，只使用核显的可以忽略
-
 ### BIOS版本
 
-当前BIOS版本：7C82v14 &nbsp;&nbsp; [BIOS下载地址](https://cn.msi.com/Motherboard/support/MAG-B460M-MORTAR)
+当前BIOS版本：7C82v15 &nbsp;&nbsp; [BIOS下载地址](https://cn.msi.com/Motherboard/support/MAG-B460M-MORTAR)
 
 ### BIOS设置
 
 * USB设备从S3/S4/S5唤醒：允许
 * PS/2鼠标从S3/S4/S5唤醒：允许
 * USB键盘从S3/S4/S5唤醒：任意键
-* 集成显卡多显示器：允许（否则核显硬件解码失效，只使用核显的可以忽略）
 * OC -> CPU 特征 -> Intel 虚拟化技术：允许
 * OC -> CPU 特征 -> Intel VT-D 技术：禁止
 * OC -> CPU 特征 -> CFG锁定：禁止
 
 ### EFI
 
-OpenCore: 0.7.4
+OpenCore: 0.7.9
 
-EFI下载地址: [Download](https://github.com/myqqiu/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630/releases)
+EFI下载地址: [Download](https://github.com/cxp863/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630/releases)
 
 
 ### 系统安装
